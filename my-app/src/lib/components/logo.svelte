@@ -1,4 +1,7 @@
-<a href="/" class="m-5 ml-6 flex items-center space-x-3 text-white hover:opacity-80 transition-opacity duration-200">
+<a
+    href="/"
+    class="m-5 ml-6 flex items-center space-x-3 text-white hover:opacity-80 transition-opacity duration-200"
+>
     <svg
         width="40"
         height="40"
@@ -6,10 +9,8 @@
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
     >
-        <!-- 외곽 원 -->
         <circle cx="16" cy="16" r="12" stroke="white" stroke-width="2" />
 
-        <!-- 각진 나선 느낌의 경로 -->
         <path
             d="M16 4 
                L22 6 
