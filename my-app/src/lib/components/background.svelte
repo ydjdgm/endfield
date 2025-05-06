@@ -1,11 +1,3 @@
-<script lang="ts">
-	import "../app.css";
-	import Navbar from "$lib/components/navbar.svelte";
-
-	let { children } = $props();
-</script>
-
-<Navbar />
 <div class="md:ml-64 relative w-full h-screen overflow-x-hidden overflow-y-auto md:w-[calc(100%-16rem)]">
 	<img
 		src="bg.jpg"
@@ -20,7 +12,3 @@
            via-black/60
            to-black/70"
 	></div>
-	<div class="relative z-10 m-10 flex flex-col items-center">
-		{@render children()}
-	</div>
-</div>

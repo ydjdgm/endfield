@@ -1,5 +1,3 @@
-<h1>Welcome to SvelteKit</h1>
-<p>
-    Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the
-    documentation
-</p>
+<h1 class="font-bold text-4xl">Welcome to ENDFIELD INFO</h1>
+<a href="https://www.prydwen.gg/arknights-endfield/">pryden</a>
+<a href="https://ww.hakush.in/">hakush.in</a>
