@@ -6,6 +6,7 @@
     ];
 </script>
 
+<!-- menuItems 감싸는거 -->
 <ul class="menu menu-vertical flex-1 pt-6 p-0 w-full">
     {#each menuItems as item}
         <li class="">

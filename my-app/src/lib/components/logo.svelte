@@ -1,7 +1,9 @@
+<!-- 전체 감싸는거 -->
 <a
     href="/"
     class="m-5 ml-6 flex items-center space-x-3 text-white hover:opacity-80 transition-opacity duration-200"
 >
+    <!-- logo -->
     <svg
         width="40"
         height="40"
@@ -25,5 +27,6 @@
             stroke-linecap="butt"
         />
     </svg>
+    <!-- logo text -->
     <p class="text-lg font-semibold tracking-wide">ENDFIELD INFO</p>
 </a>

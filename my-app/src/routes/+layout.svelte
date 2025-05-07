@@ -8,7 +8,7 @@
 
 <Navbar />
 <Background>
-	<div class="relative z-10 m-10 flex flex-col items-center">
+	<div class="relative m-10 flex flex-col items-center">
 		{@render children()}
 	</div>
 </Background>
