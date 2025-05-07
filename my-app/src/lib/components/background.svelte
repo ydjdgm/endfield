@@ -11,11 +11,8 @@
     />
     <!-- 배경 그라데이션 -->
     <div
-        class="absolute inset-0 pointer-events-none z-5
-           bg-gradient-to-b
-           from-transparent
-           via-black/60
-           to-black"
+        class="absolute inset-0 pointer-events-none z-5"
+        style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.6) 40%, black 100%)"
     >
         <!-- children 상호작용 가능하게 -->
         <div class="relative z-20 pointer-events-auto">
