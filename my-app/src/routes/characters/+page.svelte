@@ -9,9 +9,30 @@
     const characters = data.character;
 </script>
 
-{#each characters as c}
-    <div>
-        <h2>{c.name}</h2>
-        <img src={c.element.img} alt={c.element.name} />
+<ul>
+    {#each characters as c}
+        <li>
+            <!-- 동적 라우팅 링크 -->
+            <a href={`/characters/${c.id}`}>
+                <div>
+                    <h1>{c.name}</h1>
+                    <img
+                        src={c.class.img}
+                        alt={c.class.name}
+                        width="50"
+                        height="50"
+                    />
+                </div>
+            </a>
+        </li>
+    {/each}
+</ul>
+<div
+    class="w-52 h-64 rounded-xl bg-white/20 backdrop-blur-sm border border-white/30 p-4 flex flex-col justify-end transition-border duration-200 hover:border-white/60"
+>
+    <h3 class="text-xl font-bold text-white mb-2">name</h3>
+    <div class="flex items-center space-x-2">
+        <img src="" alt="" class="w-5 h-5" />
+        <span class="text-white">name</span>
     </div>
-{/each}
+</div>
