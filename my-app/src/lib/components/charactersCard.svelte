@@ -61,7 +61,7 @@
                         (selectedRarity =
                             selectedRarity === r.id ? null : r.id)}
                 >
-                    <Sparkle class="w-6 h-6" />
+                    <p class="text-xl">{r.id}</p><Sparkle class="w-6 h-6" />
                 </button>
             {/each}
         </div>
