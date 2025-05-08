@@ -11,7 +11,7 @@
         class="w-[50vw] -mt-25 pointer-events-none"
     />
     <div
-        class="absolute p-4 w-50.5 right-1/2 top-[60vh] text-white bg-neutral-900 font-bold"
+        class="absolute p-4 right-1/2 top-[60vh] text-white bg-neutral-900 font-bold"
     >
         <!-- 고정된 사각형, 삐져나온 선들 (불규칙 길이) -->
         <!-- 상단선: 좌측 짧게 -->
