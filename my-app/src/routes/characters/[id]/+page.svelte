@@ -8,7 +8,7 @@
     <img
         src="/{character.header_img}"
         alt={character.name}
-        class="w-[50vw] pointer-events-none"
+        class="w-[50vw] -mt-25 pointer-events-none"
     />
     <div
         class="absolute p-4 w-50.5 right-1/2 top-[60vh] text-white bg-neutral-900 font-bold"
