@@ -1,7 +1,7 @@
 <script>
     export let data;
     const character = data.character;
-    import { Sparkle, Swords, Cross } from "@lucide/svelte";
+    import { Sparkle, Swords, Cross, Shield } from "@lucide/svelte";
 </script>
 
 <div class="w-full relative items-center flex flex-col">
@@ -140,8 +140,8 @@
                 .element.color} shadow-sm"
         >
             <div class="flex items-center justify-center space-x-3">
-                <Swords class="w-5 h-5" />
-                <p class="text-lg font-bold">기초 공격력</p>
+                <Cross class="w-5 h-5" />
+                <p class="text-lg font-bold">기초 체력</p>
             </div>
             <div class="h-[1px] w-full bg-white/10"></div>
             <div class="flex justify-center"><p>{character.atk}</p></div>
@@ -151,8 +151,8 @@
                 .element.color} shadow-sm"
         >
             <div class="flex items-center justify-center space-x-3">
-                <Swords class="w-5 h-5" />
-                <p class="text-lg font-bold">기초 공격력</p>
+                <Shield class="w-5 h-5" />
+                <p class="text-lg font-bold">기초 방어력</p>
             </div>
             <div class="h-[1px] w-full bg-white/10"></div>
             <div class="flex justify-center"><p>{character.atk}</p></div>
