@@ -6,7 +6,7 @@ export async function load({ params }) {
 
     const { data: character, error } = await supabase
         .from("character")
-        .select('id, name, header_img, rarity(id, name), element(id, name, img), class(id, name, img), weapon_type(id, name, img)')
+        .select('id, name, header_img, rarity(id, name), element(id, name, img, color), class(id, name, img), weapon_type(id, name, img), strength, agility, intellect, will, atk, hp')
         .eq("id", characterId)
         .single(); // id로 검색할 때는 .single() 써주면 객체 하나만 반환됨
 
