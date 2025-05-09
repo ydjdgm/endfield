@@ -13,7 +13,7 @@
         { id: 1, name: "얼음", icon: "element/cryo.webp" },
         { id: 2, name: "전기", icon: "element/electric.webp" },
         { id: 3, name: "불", icon: "element/heat.webp" },
-        { id: 4, name: "자연연", icon: "element/nature.webp" },
+        { id: 4, name: "자연", icon: "element/nature.webp" },
     ];
 
     const rarity = [
