@@ -7,7 +7,7 @@ export async function load() {
         // 테이블 선택
         .from("character")
         // mysql select 하는것처럼 하면 됨 + element(name, img) 이렇게 하면 join처럼 됨
-        .select('id, name, menu_img, rarity(id, name), element(id, name, img), class(id, name, img), weapon_type(id, name, img)');
+        .select('id, name, menu_img, rarity(id), element(id, name, img), class(id, name, img), weapon_type(id, name, img)');
 
     // 에러 핸들링
     if (error) {

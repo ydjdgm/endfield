@@ -4,7 +4,7 @@
 </script>
 
 <div
-    class="flex justify-center w-[51.9vw] text-white bg-neutral-800 font-bold p-3 mt-10"
+    class="flex justify-center w-[51.9vw] text-white bg-neutral-800 font-bold p-3 mt-20"
 >
     <p class="text-2xl font-bold">기본 스탯</p>
 </div>
