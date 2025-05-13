@@ -10,7 +10,7 @@
         class="w-[50vw] -mt-25 pointer-events-none"
     />
     <div
-        class="absolute p-4 right-[20vw] top-[60vh] text-white bg-neutral-900 font-bold"
+        class="relative p-4 left-[14vw] mt-[-18rem] text-white bg-neutral-900 font-bold"
     >
         <!-- 고정된 사각형, 삐져나온 선들 -->
         <div
