@@ -28,9 +28,9 @@
                 </p>
             </div>
             <div class="h-[1px] w-full bg-white/10"></div>
-            {#each skill.desc as desc}
+            {#each skill.description as description}
                 <div class="flex m-5">
-                    <p>{desc.desc}</p>
+                    <p>{description.description}</p>
                 </div>
             {/each}
             <div class="h-[1px] w-full bg-white/10"></div>
