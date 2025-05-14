@@ -3,7 +3,7 @@
     import { Sparkle } from "@lucide/svelte";
 </script>
 
-<div class="w-full relative items-center flex flex-col">
+<div id="header" class="w-full relative items-center flex flex-col">
     <img
         src="/{character.header_img}"
         alt={character.name}
