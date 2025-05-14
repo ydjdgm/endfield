@@ -6,6 +6,7 @@
     import CharacterSkills from "$lib/components/character/characterSkills.svelte";
     import CharacterChapterSelector from "$lib/components/character/characterChapterSelector.svelte";
     import CharacterTalent from "$lib/components/character/characterTalent.svelte";
+    import CharacterPotential from "$lib/components/character/characterPotential.svelte";
 </script>
 
 <CharacterChapterSelector />
@@ -13,5 +14,21 @@
 <CharacterStats {character} />
 <CharacterSkills {character} />
 <CharacterTalent {character} />
+<CharacterPotential {character} />
+<div
+    class="flex justify-center w-[51.9vw] text-white bg-neutral-800 font-bold p-3 mt-50"
+>
+    <p id="weapon" class="text-2xl font-bold">무기 효율</p>
+</div>
+<div
+    class="flex justify-center w-[51.9vw] text-white bg-neutral-800 font-bold p-3 mt-50"
+>
+    <p id="item" class="text-2xl font-bold">장비</p>
+</div>
+<div
+    class="flex justify-center w-[51.9vw] text-white bg-neutral-800 font-bold p-3 mt-50"
+>
+    <p id="party" class="text-2xl font-bold">추천 조합</p>
+</div>
 
 <img src="/{character.header_img}" />

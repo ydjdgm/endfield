@@ -1,6 +1,5 @@
 <script>
     export let data;
-    const characters = [...data.character].sort((a, b) => b.id - a.id);
     import CharactersCard from "$lib/components/charactersCard.svelte";
 </script>
 

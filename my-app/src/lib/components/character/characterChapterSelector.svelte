@@ -15,6 +15,22 @@
         const el = document.getElementById("talent");
         if (el) el.scrollIntoView({ behavior: "smooth" });
     }
+    function scrollToPotential() {
+        const el = document.getElementById("potential");
+        if (el) el.scrollIntoView({ behavior: "smooth" });
+    }
+    function scrollToWeapon() {
+        const el = document.getElementById("weapon");
+        if (el) el.scrollIntoView({ behavior: "smooth" });
+    }
+    function scrollToParty() {
+        const el = document.getElementById("party");
+        if (el) el.scrollIntoView({ behavior: "smooth" });
+    }
+    function scrollToItem() {
+        const el = document.getElementById("item");
+        if (el) el.scrollIntoView({ behavior: "smooth" });
+    }
 </script>
 
 <div
@@ -35,5 +51,21 @@
     <button
         on:click={scrollToTalent}
         class="btn btn-md btn-neutral hover:btn-primary">재능</button
+    >
+    <button
+        on:click={scrollToPotential}
+        class="btn btn-md btn-neutral hover:btn-primary">잠재력</button
+    >
+    <button
+        on:click={scrollToWeapon}
+        class="btn btn-md btn-neutral hover:btn-primary">무기 효율</button
+    >
+    <button
+        on:click={scrollToItem}
+        class="btn btn-md btn-neutral hover:btn-primary">장비</button
+    >
+    <button
+        on:click={scrollToParty}
+        class="btn btn-md btn-neutral hover:btn-primary">추천 조합</button
     >
 </div>
