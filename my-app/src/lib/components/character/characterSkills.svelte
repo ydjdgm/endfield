@@ -25,7 +25,7 @@
             <div class="h-[1px] w-full bg-white/10"></div>
             {#each skill.description as description}
                 <div class="flex m-5">
-                    <p>{description.description}</p>
+                    <p class="font-normal">{description.description}</p>
                 </div>
             {/each}
             <div class="h-[1px] w-full bg-white/10"></div>

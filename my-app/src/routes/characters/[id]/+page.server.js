@@ -28,12 +28,14 @@ export async function load({ params }) {
                 cost,
                 description(id, description),
                 multiplier(id, name, mul)
-            )
+            ),
+            talent(id, name, type, description)
         `)
         .eq("id", characterId)
         .order("id", { foreignTable: "skill", ascending: true })                // skill 정렬
         .order("id", { foreignTable: "skill.description", ascending: true })                // desc 정렬
         .order("id", { foreignTable: "skill.multiplier", ascending: true })         // multiplier 정렬
+        .order("id", { foreignTable: "talent", ascending: true })
         .single();
 
     if (error) {
