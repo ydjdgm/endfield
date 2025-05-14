@@ -31,7 +31,7 @@ export async function load({ params }) {
         `)
         .eq("id", characterId)
         .order("id", { foreignTable: "skill", ascending: true })                // skill 정렬
-        .order("id", { foreignTable: "skill.desc", ascending: true })                // desc 정렬
+        .order("id", { foreignTable: "skill.description", ascending: true })                // desc 정렬
         .order("id", { foreignTable: "skill.multiplier", ascending: true })         // multiplier 정렬
         .single();
 
