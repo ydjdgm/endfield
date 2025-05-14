@@ -6,9 +6,34 @@ export async function load({ params }) {
 
     const { data: character, error } = await supabase
         .from("character")
-        .select('id, name, header_img, rarity(id), element(id, name, img, color), class(id, name, img), weapon_type(id, name, img), strength, agility, intellect, will, atk, hp, skill(id, name, type, cost, desc(id, desc), multiplier(id, name, mul))')
+        .select(`
+            id,
+            name,
+            header_img,
+            rarity(id),
+            element(id, name, img, color),
+            class(id, name, img),
+            weapon_type(id, name, img),
+            strength,
+            agility,
+            intellect,
+            will,
+            atk,
+            hp,
+            skill(
+                id,
+                name,
+                type,
+                cost,
+                desc(id, desc),
+                multiplier(id, name, mul)
+            )
+        `)
         .eq("id", characterId)
-        .single(); // id로 검색할 때는 .single() 써주면 객체 하나만 반환됨
+        .order("id", { foreignTable: "skill", ascending: true })                // skill 정렬
+        .order("id", { foreignTable: "skill.desc", ascending: true })                // desc 정렬
+        .order("id", { foreignTable: "skill.multiplier", ascending: true })         // multiplier 정렬
+        .single();
 
     if (error) {
         console.error('Supabase error:', error);

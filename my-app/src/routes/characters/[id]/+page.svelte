@@ -3,10 +3,6 @@
     const character = data.character;
     import CharacterHeader from "$lib/components/characterHeader.svelte";
     import CharacterStats from "$lib/components/characterStats.svelte";
-    const basic = character.skill.find((s) => s.type === "basic");
-    const battle = character.skill.find((s) => s.type === "battle");
-    const combo = character.skill.find((s) => s.type === "combo");
-    const ultimate = character.skill.find((s) => s.type === "ultimate");
 </script>
 
 <CharacterHeader {character} />
