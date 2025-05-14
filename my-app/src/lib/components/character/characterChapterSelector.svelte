@@ -27,8 +27,8 @@
         const el = document.getElementById("party");
         if (el) el.scrollIntoView({ behavior: "smooth" });
     }
-    function scrollToItem() {
-        const el = document.getElementById("item");
+    function scrollToGear() {
+        const el = document.getElementById("gear");
         if (el) el.scrollIntoView({ behavior: "smooth" });
     }
 </script>
@@ -61,8 +61,8 @@
         class="btn btn-md btn-neutral hover:btn-primary">무기 효율</button
     >
     <button
-        on:click={scrollToItem}
-        class="btn btn-md btn-neutral hover:btn-primary">장비</button
+        on:click={scrollToGear}
+        class="btn btn-md btn-neutral hover:btn-primary">기어</button
     >
     <button
         on:click={scrollToParty}

@@ -23,7 +23,7 @@
 <div
     class="flex justify-center w-[51.9vw] text-white bg-neutral-800 font-bold p-3 mt-50"
 >
-    <p id="item" class="text-2xl font-bold">장비</p>
+    <p id="gear" class="text-2xl font-bold">기어</p>
 </div>
 <div
     class="flex justify-center w-[51.9vw] text-white bg-neutral-800 font-bold p-3 mt-50"
