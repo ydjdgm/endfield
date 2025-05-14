@@ -20,6 +20,7 @@ export async function load({ params }) {
             will,
             atk,
             hp,
+            def,
             skill(
                 id,
                 name,
