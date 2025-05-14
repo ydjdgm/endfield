@@ -6,7 +6,7 @@
 <div
     class="flex justify-center w-[51.9vw] text-white bg-neutral-800 font-bold p-3 mt-30"
 >
-    <p class="text-2xl font-bold">기본 스탯</p>
+    <p id="stat" class="text-2xl font-bold">기본 스탯</p>
 </div>
 <div class="flex space-x-[1.3vw] -mt-3">
     <div
