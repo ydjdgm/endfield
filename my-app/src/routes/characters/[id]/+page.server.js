@@ -25,7 +25,7 @@ export async function load({ params }) {
                 name,
                 type,
                 cost,
-                desc(id, desc),
+                description(id, description),
                 multiplier(id, name, mul)
             )
         `)
