@@ -10,7 +10,7 @@
 <div
     class="flex justify-center w-[51.9vw] text-white bg-neutral-800 font-bold p-3 mt-50"
 >
-    <p class="text-2xl font-bold">스킬</p>
+    <p id="skill" class="text-2xl font-bold">스킬</p>
 </div>
 <div class="flex flex-wrap justify-between w-[51.9vw] -mt-3">
     {#each character.skill as skill}
