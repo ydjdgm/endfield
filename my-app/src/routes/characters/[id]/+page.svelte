@@ -5,7 +5,7 @@
     import CharacterStats from "$lib/components/characterStats.svelte";
 </script>
 
-<CharacterHeader {character} />
+<CharacterHeader id="header" {character} />
 <CharacterStats {character} />
 <div
     class="flex justify-center w-[51.9vw] text-white bg-neutral-800 font-bold p-3 mt-50"
