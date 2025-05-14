@@ -29,7 +29,7 @@
             <p class="text-lg font-bold">민첩</p>
         </div>
         <div class="h-[1px] w-full bg-white/10"></div>
-        <div class="flex justify-center"><p>{character.strength}</p></div>
+        <div class="flex justify-center"><p>{character.agility}</p></div>
     </div>
     <div
         class="w-[12vw] text-white bg-neutral-800 font-bold mt-10 p-3 space-y-4 border border-{character
@@ -44,7 +44,7 @@
             <p class="text-lg font-bold">지능</p>
         </div>
         <div class="h-[1px] w-full bg-white/10"></div>
-        <div class="flex justify-center"><p>{character.strength}</p></div>
+        <div class="flex justify-center"><p>{character.intellect}</p></div>
     </div>
     <div
         class="w-[12vw] text-white bg-neutral-800 font-bold mt-10 p-3 space-y-4 border border-{character
@@ -55,7 +55,7 @@
             <p class="text-lg font-bold">의지</p>
         </div>
         <div class="h-[1px] w-full bg-white/10"></div>
-        <div class="flex justify-center"><p>{character.strength}</p></div>
+        <div class="flex justify-center"><p>{character.will}</p></div>
     </div>
 </div>
 <div class="flex space-x-[1.3vw] -mt-5">
@@ -79,7 +79,7 @@
             <p class="text-lg font-bold">기초 체력</p>
         </div>
         <div class="h-[1px] w-full bg-white/10"></div>
-        <div class="flex justify-center"><p>{character.atk}</p></div>
+        <div class="flex justify-center"><p>{character.hp}</p></div>
     </div>
     <div
         class="w-[16.43vw] text-white bg-neutral-800 font-bold mt-10 p-3 space-y-4 border border-{character
@@ -90,6 +90,6 @@
             <p class="text-lg font-bold">기초 방어력</p>
         </div>
         <div class="h-[1px] w-full bg-white/10"></div>
-        <div class="flex justify-center"><p>{character.atk}</p></div>
+        <div class="flex justify-center"><p>{character.def}</p></div>
     </div>
 </div>
