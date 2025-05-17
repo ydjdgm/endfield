@@ -1,7 +1,7 @@
 # endfield
 
 # To Do
-## 화면 오른쪽에 클릭으로 챕터 선택
-나무위키처럼
+## 용어 단일화
+체력 -> 생명력
 
-document.getElementById("skill").scrollIntoView({ behavior: "smooth"});
+그로기 -> 균형
