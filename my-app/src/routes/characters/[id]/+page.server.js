@@ -30,7 +30,8 @@ export async function load({ params }) {
                 multiplier(id, name, mul)
             ),
             talent(id, name, type, description),
-            potential(id, name, description)
+            potential(id, name, description),
+            zf
         `)
         .eq("id", characterId)
         .order("id", { foreignTable: "skill", ascending: true })                // skill 정렬

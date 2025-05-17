@@ -16,7 +16,25 @@
 >
     <p id="zf" class="text-2xl font-bold">캐릭터 요약</p>
 </div>
-<div class="flex flex-wrap justify-between w-[51.9vw] -mt-3"></div>
+<div class="flex flex-wrap justify-between w-[51.9vw] -mt-3">
+    <div
+        class="w-[51.9vw] text-white bg-neutral-800 font-bold mt-10 p-3 space-y-4 border border-{character
+            .element.color} shadow-sm"
+    >
+        <div class="flex items-center justify-center space-x-3">
+            <p class="text-lg font-bold">
+                {character.rarity.id}성 /
+                {character.element.name} /
+                {character.weapon_type.name} /
+                {character.class.name} 캐릭터
+            </p>
+        </div>
+        <div class="h-[1px] w-full bg-white/10"></div>
+        <div class="flex m-5">
+            <p class="font-normal">{character.zf}</p>
+        </div>
+    </div>
+</div>
 <CharacterStats {character} />
 <CharacterSkills {character} />
 <CharacterTalent {character} />

@@ -43,11 +43,11 @@
                 src={`/${character.element.img}`}
                 alt={character.element.name}
             />
-            <img src={`/${character.class.img}`} alt={character.class.name} />
             <img
                 src={`/${character.weapon_type.img}`}
                 alt={character.weapon_type.name}
             />
+            <img src={`/${character.class.img}`} alt={character.class.name} />
         </div>
     </div>
 </div>
