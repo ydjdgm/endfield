@@ -31,6 +31,10 @@
         const el = document.getElementById("gear");
         if (el) el.scrollIntoView({ behavior: "smooth" });
     }
+    function scrollToZf() {
+        const el = document.getElementById("zf");
+        if (el) el.scrollIntoView({ behavior: "smooth" });
+    }
 </script>
 
 <div
@@ -39,6 +43,10 @@
     <button
         on:click={scrollToHeader}
         class="btn btn-md btn-neutral hover:btn-primary">해더</button
+    >
+    <button
+        on:click={scrollToZf}
+        class="btn btn-md btn-neutral hover:btn-primary">캐릭터 요약</button
     >
     <button
         on:click={scrollToStat}

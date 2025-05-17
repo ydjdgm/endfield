@@ -15,9 +15,9 @@
         >
             <div class="flex items-center justify-center space-x-3">
                 <p class="text-lg font-bold">
-                    {#if skill.type === "basic"}기본 공격:&nbsp;
-                    {:else if skill.type === "battle"}전투 스킬:&nbsp;
-                    {:else if skill.type === "combo"}콤보 스킬:&nbsp;
+                    {#if skill.type === "basic"}일반 공격:&nbsp;
+                    {:else if skill.type === "battle"}배틀 스킬:&nbsp;
+                    {:else if skill.type === "combo"}연계 스킬:&nbsp;
                     {:else if skill.type === "ultimate"}궁극기:&nbsp;
                     {/if}{skill.name}
                 </p>

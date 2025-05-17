@@ -11,6 +11,12 @@
 
 <CharacterChapterSelector />
 <CharacterHeader {character} />
+<div
+    class="flex justify-center w-[51.9vw] text-white bg-neutral-800 font-bold p-3 mt-50"
+>
+    <p id="zf" class="text-2xl font-bold">캐릭터 요약</p>
+</div>
+<div class="flex flex-wrap justify-between w-[51.9vw] -mt-3"></div>
 <CharacterStats {character} />
 <CharacterSkills {character} />
 <CharacterTalent {character} />
