@@ -27,5 +27,19 @@
         <div class="flex m-5">
             <p class="font-normal">uwu</p>
         </div>
+        <div class="flex items-center justify-center space-x-3">
+            <p class="text-lg font-bold">육성 계산기 추가</p>
+        </div>
+        <div class="h-[1px] w-full bg-white/10"></div>
+        <div class="flex m-5">
+            <p class="font-normal">uwu</p>
+        </div>
+        <div class="flex items-center justify-center space-x-3">
+            <p class="text-lg font-bold">티어표 추가</p>
+        </div>
+        <div class="h-[1px] w-full bg-white/10"></div>
+        <div class="flex m-5">
+            <p class="font-normal">uwu</p>
+        </div>
     </div>
 </div>
