@@ -1,8 +1,9 @@
 <script>
-    import { House, Users } from "@lucide/svelte";
+    import { House, Users, Sword } from "@lucide/svelte";
     const menuItems = [
         { name: "홈", icon: House, href: "/" },
         { name: "캐릭터", icon: Users, href: "/characters" },
+        { name: "무기", icon: Sword, href: "/weapons" },
     ];
 </script>
 

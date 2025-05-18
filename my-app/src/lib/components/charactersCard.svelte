@@ -10,9 +10,9 @@
 
     const elements = [
         { id: 0, name: "물리", icon: "element/physical.webp" },
-        { id: 1, name: "얼음", icon: "element/cryo.webp" },
+        { id: 1, name: "냉기", icon: "element/cryo.webp" },
         { id: 2, name: "전기", icon: "element/electric.webp" },
-        { id: 3, name: "불", icon: "element/heat.webp" },
+        { id: 3, name: "열기", icon: "element/heat.webp" },
         { id: 4, name: "자연", icon: "element/nature.webp" },
     ];
 
@@ -31,11 +31,11 @@
     ];
 
     const weapon_types = [
-        { id: 0, name: "대검", icon: "weapon_type/greatsword.webp" },
-        { id: 1, name: "총", icon: "weapon_type/guns.webp" },
-        { id: 2, name: "orbiters", icon: "weapon_type/orbiters.webp" },
-        { id: 3, name: "polearm", icon: "weapon_type/polearm.webp" },
-        { id: 4, name: "검", icon: "weapon_type/sword.webp" },
+        { id: 0, name: "양손 무기", icon: "weapon_type/greatsword.webp" },
+        { id: 1, name: "권총", icon: "weapon_type/guns.webp" },
+        { id: 2, name: "부유포", icon: "weapon_type/orbiters.webp" },
+        { id: 3, name: "긴 무기", icon: "weapon_type/polearm.webp" },
+        { id: 4, name: "한손검", icon: "weapon_type/sword.webp" },
     ];
 
     $: filteredCharacters = characters.filter(
