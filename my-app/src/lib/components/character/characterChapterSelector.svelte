@@ -42,7 +42,7 @@
 >
     <button
         on:click={scrollToHeader}
-        class="btn btn-md btn-neutral hover:btn-primary">해더</button
+        class="btn btn-md btn-neutral hover:btn-primary">헤더</button
     >
     <button
         on:click={scrollToZf}
