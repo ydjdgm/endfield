@@ -1,6 +1,7 @@
 <script>
     export let data;
-    const character = data.character;
+    
+    $: ({ character } = data);
     import CharacterHeader from "$lib/components/character/characterId/characterHeader.svelte";
     import CharacterStats from "$lib/components/character/characterId/characterStats.svelte";
     import CharacterSkills from "$lib/components/character/characterId/characterSkills.svelte";
