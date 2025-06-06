@@ -1,12 +1,12 @@
 <script>
     export let data;
     const character = data.character;
-    import CharacterHeader from "$lib/components/character/characterHeader.svelte";
-    import CharacterStats from "$lib/components/character/characterStats.svelte";
-    import CharacterSkills from "$lib/components/character/characterSkills.svelte";
-    import CharacterChapterSelector from "$lib/components/character/characterChapterSelector.svelte";
-    import CharacterTalent from "$lib/components/character/characterTalent.svelte";
-    import CharacterPotential from "$lib/components/character/characterPotential.svelte";
+    import CharacterHeader from "$lib/components/character/characterId/characterHeader.svelte";
+    import CharacterStats from "$lib/components/character/characterId/characterStats.svelte";
+    import CharacterSkills from "$lib/components/character/characterId/characterSkills.svelte";
+    import CharacterChapterSelector from "$lib/components/character/characterId/characterChapterSelector.svelte";
+    import CharacterTalent from "$lib/components/character/characterId/characterTalent.svelte";
+    import CharacterPotential from "$lib/components/character/characterId/characterPotential.svelte";
 </script>
 
 <CharacterChapterSelector />
