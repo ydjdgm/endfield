@@ -15,17 +15,15 @@
 	export let weapon: Weapon;
 </script>
 
-<div class="rounded-lg shadow-lg overflow-hidden border">
-	<div class="grid grid-cols-1 md:grid-cols-4 gap-4 p-4">
-		<div class="md:col-span-1 flex items-center justify-center">
-			<img
-				src={weapon.weapon_img || "/placeholder.webp"}
-				alt={weapon.name}
-				class="aspect-square object-cover rounded-md w-32 h-32"
-			/>
-		</div>
+<div class="rounded-lg border gap-4 p-4 bg-gray-900 space-y-3">
+	<div class="flex space-x-5">
+		<img
+			src={weapon.weapon_img || "/placeholder.webp"}
+			alt={weapon.name}
+			class="aspect-square object-cover rounded-md w-20 h-20 border"
+		/>
 
-		<div class="md:col-span-3 flex flex-col space-y-3">
+		<div class="lg:col-span-3 flex flex-col space-y-3">
 			<div>
 				<h3 class="text-2xl font-bold text-white">{weapon.name}</h3>
 				<p class="text-sm text-gray-400">
@@ -43,10 +41,6 @@
 					<p>{weapon.stat3}</p>
 				{/if}
 			</div>
-
-			<p class="text-gray-300 text-base leading-relaxed">
-				{weapon.description}
-			</p>
 
 			{#if weapon.character && weapon.character.length > 0}
 				<div class="border-t border-gray-700 pt-3 mt-auto">
@@ -67,4 +61,7 @@
 			{/if}
 		</div>
 	</div>
+	<p class="text-gray-300 text-base leading-relaxed">
+		{weapon.description}
+	</p>
 </div>
